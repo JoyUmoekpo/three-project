@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { CSS3DRenderer } from "three/addons/renderers/CSS3DRenderer.js";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
